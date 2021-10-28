@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaGoogleDrive } from 'react-icons/fa';
 import { DiCssdeck } from 'react-icons/di';
 
 import {
@@ -38,6 +39,29 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
+    <Div3>
+      <SocialIcons
+        href='https://github.com/JesseJ713'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <AiFillGithub size='3rem' />
+      </SocialIcons>
+      <SocialIcons
+        href='https://www.linkedin.com/in/jesse-jackson-atx/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <AiFillLinkedin size='3rem' />
+      </SocialIcons>
+      <SocialIcons
+        href='https://docs.google.com/document/d/1OAcNqShun2ll-cHmemCxcgJuECvqdQ0V/edit?usp=sharing&ouid=115416440635836363293&rtpof=true&sd=true'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <FaGoogleDrive size='3rem' />
+      </SocialIcons>
+    </Div3>
   </Container>
 );
 
