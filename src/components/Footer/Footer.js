@@ -32,7 +32,10 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>LOREM IPSUM</Slogan>
+          <Slogan>
+            “ Code is like humor. When you have to explain it, it’s bad.” <br />
+            – Cory House
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons

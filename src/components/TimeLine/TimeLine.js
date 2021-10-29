@@ -72,10 +72,6 @@ const Timeline = () => {
         After searching for a career path I could consistently grow in, <br />I
         discovered an innate talent for web development.
       </SectionText>
-      <SectionText>
-        “ Code is like humor. When you have to explain it, it’s bad.” <br /> –
-        Cory House
-      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
