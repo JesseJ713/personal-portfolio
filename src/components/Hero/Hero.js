@@ -18,7 +18,11 @@ const Hero = () => (
       <SectionText>
         Full Stack Developer with experience in Business Analysis
       </SectionText>
-      <Button>Contact Me</Button>
+      <Button
+        onClick={() => (window.location = 'mailto:jesse.jackson.c@gmail.com')}
+      >
+        Contact Me
+      </Button>
     </LeftSection>
   </Section>
 );
