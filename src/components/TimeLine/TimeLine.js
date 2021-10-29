@@ -65,6 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         After searching for a career path I could consistently grow in, <br />I
