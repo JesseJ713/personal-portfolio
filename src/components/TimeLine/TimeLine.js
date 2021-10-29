@@ -67,7 +67,7 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        After searching for a career path I could constantly grow in, <br />I
+        After searching for a career path I could consistently grow in, <br />I
         discovered an innate talent for web development.
       </SectionText>
       <SectionText>
