@@ -1,43 +1,31 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Template Developer Portfolio',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      'Using React, I have created a template portfolio for developers. This application promotes ease of use and modularization by allowing the user to input their information into the codebase and have it dynamically generate with mobile responsiveness in mind.',
+    image: '/images/template-portfolio.jpg',
+    tags: ['React', 'Sass', 'EmailJS'],
+    source: 'https://github.com/JesseJ713/template-portfolio',
+    visit: 'https://template-dev-portfolio.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Client Outreach',
+    description: `This full stack application allows the user's clients to send out surveys and receive custom feedback. This utilizes Google OAuth login, SendGrid emailing services, and Stripe as a form of payment.`,
+    image: '/images/client-outreach.jpg',
+    tags: ['React', 'Express', 'Node', 'MySQL', 'SendGrid', 'Stripe'],
+    source: 'https://github.com/JesseJ713/Client-Outreach',
+    visit: 'https://gentle-wave-18409.herokuapp.com/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Off Your Chest',
+    description: `This full stack application is a digital board to post anonymous notes, appropriate for all sentiments and occasions. Our app provides an online sanctum for safe expression in written form. Developed in a team environment.`,
+    image: '/images/off-your-chest.jpg',
+    tags: ['Javascript', 'Express', 'Node', 'MySQL', 'Sequelize'],
+    source: 'https://github.com/JesseJ713/Note-Wall',
+    visit: 'https://off-your-chest.herokuapp.com/',
     id: 2,
-  },
-  {
-    title: 'Unichat',
-    description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ];
 
