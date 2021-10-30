@@ -19,10 +19,8 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a wide range of technologies <br /> from Front-End to
-      Back-End
-    </SectionText>
+    {/* <SectionText>
+    </SectionText> */}
     <List>
       <ListItem>
         <DiReact size='3rem' />
