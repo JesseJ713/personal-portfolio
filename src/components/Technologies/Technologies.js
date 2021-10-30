@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiDatabase, DiReact, DiGit } from 'react-icons/di';
 import {
   Section,
   SectionDivider,
@@ -19,10 +19,8 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I've worked with a wide range of technologies <br /> from Front-End to
-      Back-End
-    </SectionText>
+    {/* <SectionText>
+    </SectionText> */}
     <List>
       <ListItem>
         <DiReact size='3rem' />
@@ -30,13 +28,13 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            React.js <br /> Next.js <br />
+            React.js <br />
             JavaScript <br /> HTML5 <br /> CSS3 <br /> Sass
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiDatabase size='3rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -47,7 +45,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size='3rem' />
+        <DiGit size='3rem' />
         <ListContainer>
           <ListTitle>QA</ListTitle>
           <ListParagraph>
